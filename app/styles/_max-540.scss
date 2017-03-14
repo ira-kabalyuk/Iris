@@ -334,7 +334,7 @@ $blue-color: #3c4f90;
 
 	.catalog-page {
 	
-
+		
 	}		
 
 //END CATALOG-PAGE	
@@ -367,6 +367,10 @@ $blue-color: #3c4f90;
 	.catalog-button {
 			display: block;
 			margin: 24px auto 0;
+
+			&:last-child {
+				margin-right: auto;
+			}
 		}
 
 	.filter-title {
