@@ -134,7 +134,7 @@ $blue-color: #3c4f90;
 
 				&.showing {					
 					height: calc(100vh - 60px);			
-
+					overflow: auto;
 				}
 
 				li {
@@ -198,7 +198,8 @@ $blue-color: #3c4f90;
 
   	.cart-body {
   		//height: calc(100vh - 80px - 60px);
-  		height: calc(100% - 60px);
+  		height: calc(100vh - 60px - 75px);
+  		padding: 0 15px 75px 15px;
 
   		.cart-head {
 			display:block;

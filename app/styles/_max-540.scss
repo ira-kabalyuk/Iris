@@ -19,10 +19,11 @@ $blue-color: #3c4f90;
 	}
 
 	.cart {
-		max-height: 320px;
+		height: 320px;
 
 		.cart-body {
-  			max-height: calc(300px - 60px);
+  			height: calc(300px - 60px);
+  			padding: 0 15px;
   		}
 
   		.cart-footer {
