@@ -256,5 +256,17 @@ $blue-color: #3c4f90;
 
 	//end catalog-block
 
+	//эффекты в каталоге
+
+	.catalog-item {
+		opacity: 0;
+	}
+	.loaded {
+		opacity: 1;		
+	}	
+	
+
+	//эффекты в каталоге конец
+
 
 }

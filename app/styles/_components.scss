@@ -527,6 +527,19 @@ opacity:1;
 	
 	.catalog-item {
 		margin-bottom: 30px;
+
+		.img-wrap {
+			position: relative;
+			z-index: 1;
+		}
+
+		&:hover {
+
+			img {
+				transform: scale(1.1);    
+				transition: all .5s;
+			}
+		}
 	}	
 
 		.info-block {
@@ -802,6 +815,8 @@ opacity:1;
 		}	 
 	
 	}
+
+	
 
 
 

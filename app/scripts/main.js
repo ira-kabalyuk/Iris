@@ -464,6 +464,24 @@ jQuery(document).ready(function() {
 
 //create-page-tabs end
 
+//эффекты появления в каталоге
+
+  function onImgload(){
+    $(this).parents('.catalog-page .catalog-item').addClass('is-hidden');
+  }
+
+  $(".catalog-page .catalog-item img").on('load', onImgload).each(function() {
+    if(this.complete) onImgload.call(this);
+  });
+
+  $(window).on('load', function(){
+   $(".catalog-page .catalog-item").each(function(){
+    if(!$(this).hasClass('loaded animated bounceIn')) {
+     $(this).addClass('loaded animated bounceIn');
+    }
+   })
+  })
+
 });
 
 
