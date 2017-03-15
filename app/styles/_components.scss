@@ -540,6 +540,13 @@ opacity:1;
 				transition: all .5s;
 			}
 		}
+
+		&:not(:hover) {
+
+			img {				
+				transition: all .5s;
+			}
+		}
 	}	
 
 		.info-block {

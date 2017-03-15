@@ -202,6 +202,16 @@ jQuery(document).ready(function() {
         offset: 100
     });
 
+    $('.in-top').addClass("is-hidden").viewportChecker({
+        classToAdd: 'visible animated slideInDown',
+        offset: 200
+    });
+
+    $('.in-fly').addClass("is-hidden").viewportChecker({
+        classToAdd: 'visible animated slideInUp',
+        offset: 200
+    });
+
     }    
 
    
@@ -467,7 +477,7 @@ jQuery(document).ready(function() {
 //эффекты появления в каталоге
 
   function onImgload(){
-    $(this).parents('.catalog-page .catalog-item').addClass('is-hidden');
+    $(this).parents('.catalog-page .catalog-item').addClass('animated zoomIn');
   }
 
   $(".catalog-page .catalog-item img").on('load', onImgload).each(function() {
@@ -476,8 +486,8 @@ jQuery(document).ready(function() {
 
   $(window).on('load', function(){
    $(".catalog-page .catalog-item").each(function(){
-    if(!$(this).hasClass('loaded animated bounceIn')) {
-     $(this).addClass('loaded animated bounceIn');
+    if(!$(this).hasClass('animated zoomIn')) {
+     $(this).addClass('animated zoomIn');
     }
    })
   })
