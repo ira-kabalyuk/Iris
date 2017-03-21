@@ -197,9 +197,9 @@ $blue-color: #3c4f90;
   	}
 
   	.cart-body {
-  		//height: calc(100vh - 80px - 60px);
-  		height: calc(100vh - 60px - 75px);
-  		padding: 0 15px 75px 15px;
+  		//height: calc(100vh - 60px - 75px);
+  		height: calc(100vh - 60px - 135px);
+  		padding: 0 15px 0 15px;
 
   		.cart-head {
 			display:block;
@@ -241,7 +241,7 @@ $blue-color: #3c4f90;
   		position: absolute;
   		height: 60px;
   		left: 0;
-		bottom: 0;
+		bottom: 45px;
 		width: 100%;
   	}
 
