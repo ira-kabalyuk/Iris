@@ -24,6 +24,7 @@ $blue-color: #3c4f90;
 
 	.right-column {
 		width: calc(100% - 360px - 25px);
+		width: -webkit-calc(100% - 360px - 25px);
 		float: right;
 		color: $black-color;
 	}
