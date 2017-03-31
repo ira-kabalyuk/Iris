@@ -37,7 +37,7 @@ $blue-color: #3c4f90;
 			right: 10px;
 		}
 
-	}
+	
 
 		.cart-head {
 			text-align: center;
@@ -45,7 +45,7 @@ $blue-color: #3c4f90;
 		}
 
 		.cart-body {
-			overflow: auto;
+			overflow: hidden;
 			height: auto;
 			max-height: 100%;
 			padding: 0;
@@ -86,6 +86,7 @@ $blue-color: #3c4f90;
 			font-size: 14px;		
 			width: calc(100% - 120px);
 			text-align: left;
+			margin-right: 0;
 		}
 
 		.cart-price-block {
@@ -152,7 +153,9 @@ $blue-color: #3c4f90;
 
 	    &:hover {
 				text-decoration: none;
-	    }
+	    	}
 
 		}
+
+	}	
 }

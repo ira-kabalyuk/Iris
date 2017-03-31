@@ -209,6 +209,11 @@ $blue-color: #3c4f90;
 
   	}
 
+	  .cart-text-wrap {
+		  width: calc(100% - 50px - 25px);
+		  margin-right: 25px;
+	  }
+
   	.delete-link {
   		display: none;
   	}
@@ -923,13 +928,23 @@ $blue-color: #3c4f90;
 
   .cart-page {
 
-  	.cart-body {
-		height: auto;
-  	}
+	  .cart {
+		  border-bottom: none;
 
-  	.cart {
-  		border-bottom: none;
-  	}
+		.cart-body {
+			height: auto;
+		}
+
+		.icon-cart-close {
+			display: block;
+		}
+
+		.cart-text-wrap {
+			width: calc(100% - 120px - 25px);
+			margin-right: 25px;
+		}		
+
+	  } 	
 
   }
 
